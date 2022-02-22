@@ -1,6 +1,4 @@
-# Programa verificador de executável PE
-
-E# Programa verificador de executável PE
+# checker PE (Portable Executable)
 
 This software does verification a program is a PE (portable executable).
 
