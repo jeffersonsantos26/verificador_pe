@@ -5,7 +5,7 @@ E# Programa verificador de executável PE
 This software does verification a program is a PE (portable executable).
 
 ```
-1. **clone the repository:**
+1. __clone the repository:__
 
 git clone https://github.com/jeffersonsantos26/verificador_pe.git
 ```
