@@ -35,5 +35,5 @@ make
 ```
 6. Run readpe with app as first arg:
 
-readpe putty.exe 
+./readpe ~/putty.exe 
 ```
