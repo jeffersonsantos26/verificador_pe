@@ -19,10 +19,12 @@ int main(int argc, char *argv[]) {
     usage();
 
   PEFILE pe;
+   
    /* typedef struct {
    *   char *filepath;
    *   IMAGE_DOS_HEADER *hdr_dos;
-   * } PEFILE; */
+   * } PEFILE; 
+   */
 
   pe.filepath = argv[1];
 
@@ -30,7 +32,7 @@ int main(int argc, char *argv[]) {
   if (petest_ispe(&pe))
     printf("Arquivo É um PE.. continuando...\n");
   else
-    fatal("Não é um PE. Saindo...");
+    fatal("Não é um arquivo PE. ");
 
   printf("File: %s\n", pe.filepath);
   printf("MZ header: %x\n", pe.hdr_dos->e_magic);
