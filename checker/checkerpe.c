@@ -9,7 +9,7 @@ void fatal(char *msg) {
 }
 
 void usage(void) {
-  printf("Uso:\n\treadpe <arquivo.exe>\n");
+  printf("Uso:\n\tcheckerpe <arquivo.exe>\n");
   exit(1);
 }
 

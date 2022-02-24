@@ -27,13 +27,13 @@ cd ..
 ```
 
 ```
-5. Run make to compile the readpe:
+5. Run make to compile the checkerpe:
 
 make
 ```
 
 ```
-6. Run readpe with app as first arg:
+6. Run checkerpe with app as first arg:
 
-./readpe ~/putty.exe 
+./checkerpe ~/putty.exe 
 ```

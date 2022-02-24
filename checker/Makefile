@@ -1,5 +1,5 @@
 all:
-	gcc -o readpe readpe.c -L./lib -lpetest
+	gcc -o checkerpe checkerpe.c -L./lib -lpetest
 
 clean:
-	rm -f readpe
+	rm -f checkerpe
