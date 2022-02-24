@@ -13,9 +13,14 @@ git clone https://github.com/jeffersonsantos26/verificador_pe.git
 
 cd verificador_pe/checker/lib/
 ```
-
 ```
 3. Install the libs using make:
+
+sudo make all
+```
+
+```
+4. Install the libs using make:
 
 sudo make install
 ```
