@@ -26,19 +26,19 @@ sudo make install
 ```
 
 ```
-4. Return a directory:
+5. Return a directory:
 
 cd ..
 ```
 
 ```
-5. Run make to compile the checkerpe:
+6. Run make to compile the checkerpe:
 
 make
 ```
 
 ```
-6. Run checkerpe with app as first arg:
+7. Run checkerpe with app as first arg:
 
 ./checkerpe ~/putty.exe 
 ```
